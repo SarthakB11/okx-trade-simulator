@@ -1,0 +1,38 @@
+{
+    "websocket": {
+        "okx": {
+            "public_url": "wss://ws.okx.com:8443/ws/v5/public",
+            "private_url": "wss://ws.okx.com:8443/ws/v5/private",
+            "reconnect_interval": 5,
+            "ping_interval": 30
+        }
+    },
+    "exchange": {
+        "okx": {
+            "default_fee_tier": 0,
+            "default_instruments": ["BTC-USDT-SWAP", "ETH-USDT-SWAP", "SOL-USDT-SWAP"]
+        }
+    },
+    "simulation": {
+        "default_order_type": "limit",
+        "default_quantity_usd": 10000.0,
+        "default_avg_daily_volume": 1000000.0,
+        "default_volatility": 0.02
+    },
+    "ui": {
+        "theme": "light",
+        "refresh_rate_ms": 500,
+        "max_log_entries": 1000,
+        "chart_history_points": 100
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "okx_simulator.log",
+        "max_file_size_mb": 10,
+        "backup_count": 5
+    },
+    "performance": {
+        "metrics_window_size": 100,
+        "latency_threshold_ms": 200
+    }
+}

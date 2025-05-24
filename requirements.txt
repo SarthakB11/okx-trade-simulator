@@ -1,0 +1,11 @@
+websockets
+numpy
+pandas
+scipy
+scikit-learn
+PyQt6
+sortedcontainers
+matplotlib
+pytest
+pytest-qt
+colorama

@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Logs
+*.log
+logs/
+log/
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
+*.tmp
+*.bak
+
+# Project specific
+*.sqlite
+*.sqlite3
+*.db
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+docs/generated/
+
+# Temporary files
+tmp/
+temp/
+
+# Cache files
+.cache/
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# Implementation plan (not to be committed)
+implementation_plan.md
+project_notes.md
+todo.txt
+TODO.md
+
+# API keys and secrets
+.env.local
+.env.development
+.env.test
+.env.production
+secrets.yaml
+config.local.yaml
+
+# Data files (optional, depending on project needs)
+# data/raw/
+# data/processed/
+# data/external/
+
+# Implementation plan
+implementation-plan
